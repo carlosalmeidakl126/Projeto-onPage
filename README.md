@@ -10,6 +10,9 @@ Primeiro projeto onpage
 [google fonts](https://fonts.google.com/)
 ### Imagens
 [pixabay](https://pixabay.com/pt/)
+
 [icon-icons](https://icon-icons.com/pt/)
+
 [iconfinde](https://www.iconfinder.com/)
+
 [optmizilla](https://imagecompressor.com/pt/)
