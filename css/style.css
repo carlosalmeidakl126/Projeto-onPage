@@ -4,11 +4,38 @@
     carlosalmeidakl126@gmailcom
 */
 
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,300&display=swap');
+
+/*Css Reset*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 1em;
+}
+
+/*Layout*/
+.Container {
+    margin: 0 auto;
+
+    background-color: #77ff00;
+}
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
     body {
         background-color: #0ff;
+    }
+
+    /*Layout*/
+    .Container {
+        max-width: 540px;
     }
 }
 
@@ -17,6 +44,11 @@
     body {
         background-color: #ff0;
     }
+
+    /*Layout*/
+    .Container {
+        max-width: 720px;
+    }
 }
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -24,11 +56,21 @@
     body {
         background-color: #ff6600;
     }
+
+    /*Layout*/
+    .Container {
+        max-width: 960px;
+    }
 }
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1200px) {
     body {
         background-color: #f00;
+    }
+
+    /*Layout*/
+    .Container {
+        max-width: 1140px;
     }
 }
